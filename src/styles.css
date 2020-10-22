@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #f6f6f6;
+    font-family: 'Piazzolla', serif;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+    overflow: hidden;
+    align-items: center;
+}

@@ -1,0 +1,39 @@
+.header {
+    background-color: #f6f6f6;
+    height: 150px;
+    font-family: 'Sansita Swashed', cursive;
+}
+.header__nav {
+    display: flex;
+    grid-column: 10/13;
+    justify-content: space-between;
+}
+.nav__link {
+    text-decoration: none;
+    color: black;
+}
+.nav__link:hover {
+    color: #ad6262;
+    cursor: pointer;
+}
+.logo p{
+    /* grid-column: 1/4; */
+    color: black;
+    animation-name: shadow;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+.fz {
+    font-size: 60px;
+}
+
+@keyframes shadow {
+    from {
+        text-shadow: none; 
+    }
+    to {
+        text-shadow: 0 0 6px rgba(173, 98, 98, 1);
+    }   
+}

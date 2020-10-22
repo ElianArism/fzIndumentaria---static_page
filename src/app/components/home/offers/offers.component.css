@@ -1,0 +1,19 @@
+.offers {
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    font-family: 'Piazzolla', serif;
+}
+
+.title {
+    margin: 50px 0;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline #dc8a3e;
+}
+
+.offers-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}

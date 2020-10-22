@@ -1,0 +1,36 @@
+
+.item-text h5 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.item-img img {
+    border-radius: 10px;
+}
+.item-text p {
+    font-weight: bold;
+    font-size: 22px;
+}
+.price-arrow {
+    height: 32px;
+}
+.item-text p span { 
+    font-weight: normal;
+    text-decoration: line-through #dc8a3e;
+    margin-right: 10px;
+}
+
+.item-text .btn {
+    border: 2px solid #9e9e9e;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+.item-text .btn:hover {
+    background-color: #bf8c59;
+    color: #f6f6f6;
+    transition: all .5s;
+    border: 2px solid #bf8c59;
+}

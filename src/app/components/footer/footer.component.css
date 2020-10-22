@@ -1,0 +1,28 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 20px;
+}
+
+.footer .footer-text span {
+    font-weight: bold;
+}
+
+.footer .contact-icons {
+    display: flex;
+}
+.footer .contact-icons h4 {
+    font-size: 22px;
+}
+.footer .contact-icons i {
+    font-size: 1.7rem;
+    margin: 0 5px;
+}
+.contact-icons:last-of-type(i) {
+    margin: 0;
+}
+

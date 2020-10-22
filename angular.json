@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fzindumentaria"
+    }
+  },
+  "defaultProject": "fzindumentaria",
+  "cli": {
+    "analytics": false
+  }
 }

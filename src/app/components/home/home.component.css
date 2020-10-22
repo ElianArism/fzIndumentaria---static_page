@@ -1,0 +1,58 @@
+.banner {
+    height: 600px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    background-color:#f3e6e1 ;
+    margin-bottom: 100px;
+}
+
+.banner-img-container img{
+    height: 100%;
+}
+.banner-text {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.text {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    font-family: 'Piazzolla', serif;
+}
+
+.text h1 span {
+    color: #bf8c59;
+    font-size: 48px;
+}
+
+.text h1 {
+    color: #dc8a3e;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.text p {
+    letter-spacing: 1px;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text .button {
+    border: 2px solid #9e9e9e;
+    display: block;
+    width: 120px;
+    padding: 20px;
+    text-align: center;
+}
+.text .button:hover {
+    background-color: #bf8c59;
+    color: #f6f6f6;
+    transition: all .5s;
+    border: 2px solid #bf8c59;
+}
