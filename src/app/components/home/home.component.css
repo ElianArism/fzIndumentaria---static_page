@@ -49,6 +49,7 @@
     width: 120px;
     padding: 20px;
     text-align: center;
+    text-decoration: none;
 }
 .text .button:hover {
     background-color: #bf8c59;
@@ -56,3 +57,27 @@
     transition: all .5s;
     border: 2px solid #bf8c59;
 }
+
+@media only screen and (max-width: 1200px) {
+    .banner-img-container{
+        width: 40%;
+    }
+    .text {
+        width: 250px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-img-container {
+        display: none;
+    }
+}
+
+    
