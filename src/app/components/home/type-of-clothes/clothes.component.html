@@ -1,0 +1,36 @@
+<section class="offers">
+    <h2 class="title">Ofertas</h2>
+        <div class="offers-items">
+            <div class="card-type-1"  (mouseover)="focus=1" (mouseout)="focus=0" >
+                <div class="card-link">
+                    <a>Mujeres</a>
+                </div>
+                
+                <div class="card-hidden" *ngIf="focus === 1">
+                    <a>ir a la Tienda</a>
+                    <hr>
+                </div>
+            </div>
+            
+            <div class="card-type-2"  (mouseover)="toggle()" (mouseout)="toggle()" >
+                <div class="card-link">
+                    <a>Niños</a>
+                </div>
+
+                <div [@popOverState]="stateName" class="card-hidden">
+                    <a>ir a la Tienda</a>
+                    <hr>
+                </div>
+            </div>
+            
+            <div class="card-type-3" (mouseover)="focus=3" (mouseout)="focus=0" >
+                <div class="card-link">
+                    <a>Hombres</a>
+                </div>    
+                <div class="card-hidden" *ngIf="focus === 3">
+                    <a>ir a la Tienda</a>
+                    <hr>
+                </div>
+            </div>
+        </div>
+</section>

@@ -1,0 +1,125 @@
+.offers {
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    font-family: 'Piazzolla', serif;
+
+}
+
+.title {
+    margin: 50px 0;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline #dc8a3e;
+}
+
+.offers-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.card-link {
+    height: 280px;
+    width: 400px;
+    display: flex;
+    border-radius: 10px;
+
+}
+.card-type-1, .card-type-2, .card-type-3 {
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.card-type-1 .card-link {
+    background-image: url("../../../../assets/img/women.jpg");
+    background-size: cover;
+}
+
+
+.card-type-2 .card-link {
+    background-image: url("../../../../assets/img/kids.jpg");
+    background-size: cover;
+}
+
+.card-type-3 .card-link {
+    background-image: url("../../../../assets/img/men.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-link a {
+    display: block;
+    margin: auto;
+    font-size: 27px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: -1px 1px 10px rgba(220, 138, 62, 1);
+}
+
+.card-type-1 {
+    height: auto;
+    grid-column: 1 / 2;
+    grid-row: 1/-1;
+    max-width: 400px;
+
+}
+.card-type-2 {
+    height: auto;
+    grid-column: 2 / 3;
+    grid-row: 1/-1;
+    max-width: 400px;
+
+}
+.card-type-3 {
+    height: auto;
+    grid-column: 3 / 4;
+    grid-row: 1/-1;
+    max-width: 400px;
+}
+
+.card-hidden {
+    position: relative;
+    bottom: 50px;
+}
+.card-hidden a {
+    display: block;
+    margin-left: 10px;
+    font-size: 22px;
+    color: #dc8a3e;
+    font-weight: bolder;
+    text-shadow: -1px 2px 10px rgb(90, 87, 87);
+
+}
+.card-hidden hr {
+    width: 30%;
+    margin-left: 10px;
+    border-bottom-color:#dc8a3e;
+    text-shadow: -1px 1px 10px rgba(255, 255, 255, 1);
+}
+
+.card-link:hover {
+    opacity: .8;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .offers {
+        height: 980px;
+    }
+    .offers-items {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 400px) { 
+    .offers {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .offers-items { 
+        grid-template-columns: 1fr;
+    }
+}
